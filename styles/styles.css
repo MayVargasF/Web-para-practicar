@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "RockyThinOpti";
+    src: url(../font/RockyThinOpti/RockyThinOpti.otf);
+}
+
+:root {
+    color: #cf4520;
+    font-family: "RockyThinOpti";
+}
+
+a {
+    color: #cf4520;
+    text-decoration: none;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .title {
+    font-size: 55px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 20px 0px 20px;
+
+}
+
+.header .nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.header .nav li {
+    padding: 10px 20px 5px 20px;
+}
+
+.new-album {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-part .hero img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    box-sizing: border-box;
+    padding: 5px 19px 0px 19px;
+}
+
+.new-album .title {
+    font-size: 48px;
+    padding: 40px 25px 15px 25px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.new-album .text {
+    font-size: 25px;
+    margin: 0px 10px 10px 10px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.new-album .button {
+    max-width: 400px;
+    width: 230px;
+    font-size: 19px;
+    box-sizing: border-box;
+    border-radius: 28px;
+    padding: 8px 12px;
+    margin: 0 auto 14px auto;
+    border: solid 1px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.videoclip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.AIW {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 40px 25px 40px 25px;
+}
+
+.AIW .title {
+    font-size: 62px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.AIW .button {
+    font-size: 23px;
+    max-width: 225px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 28px;
+    padding: 8px 12px;
+    border: solid 1px;
+    text-align: center;
+}
+
+.Video {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    box-sizing: border-box;
+    padding: 5px 19px 0px 19px;
+
+}
+
+
+
+.prefooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
