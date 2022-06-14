@@ -1,0 +1,34 @@
+.new-album {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-album .title {
+    font-size: 48px;
+    padding: 40px 25px 15px 25px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.new-album .text {
+    font-size: 25px;
+    margin: 0px 10px 10px 10px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.new-album .button {
+    max-width: 400px;
+    width: 230px;
+    font-size: 19px;
+    box-sizing: border-box;
+    border-radius: 28px;
+    padding: 8px 12px;
+    margin: 0 auto 14px auto;
+    border: solid 1px;
+    cursor: pointer;
+    text-align: center;
+
+}

@@ -1,0 +1,31 @@
+a {
+    color: #cf4520;
+    text-decoration: none;
+}
+
+.header .title {
+    font-size: 55px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 20px 0px 20px;
+
+}
+
+.header .nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.header .nav li {
+    padding: 10px 20px 5px 20px;
+}
+
+
+.first-part .hero img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    box-sizing: border-box;
+    padding: 5px 19px 0px 19px;
+}
