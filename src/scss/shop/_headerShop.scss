@@ -1,0 +1,56 @@
+.headerShop {
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: "search title userBag" "navi navi navi";
+    padding-top: 10px;
+
+    &__userBag {
+        grid-area: userBag;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        gap: 10px;
+    }
+
+    &__title{
+        grid-area: title;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+
+    }
+
+    &__search {
+        grid-area: search;
+        display: flex;
+        align-items: center;
+    }
+
+    &__nav {
+        grid-area: navi;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__nav--element {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+}
+
+.fa-bag-shopping{
+    padding-right: 10px;
+}
+
+.fa-magnifying-glass{
+    padding-left: 10px;
+}
